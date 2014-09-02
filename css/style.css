@@ -1,36 +1,122 @@
-
-
 body{
   box-sizing: border-box;
   margin: 0 auto;
   font-family: Verdana;
-  width: 960px;
-  background-color: gray;
+  background-color: white;
 }
 
 nav {
   width: 100%;
-  background-color: red;
+  background-color: #4B0082;
   text-align: center;
+  color: white;
+  text-shadow:
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000; 
+
 }
 
 nav ul li {
-  padding-top: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   display: inline-block;
   list-style-type: none;
-  height: 50px;
   text-align: center;
   vertical-align: center;
   font-size: 25px;
 }
+
 nav ul li.name {
   width: 50%;
   text-align: right;
 }
-nav ul li.not_name {
-  width: 15%
-}
-nav ul li.not_name:hover {
-  color: blue;
 
+nav ul li.not_name {
+  width: 10%
 }
+
+nav ul li.not_name:hover {
+  color: yellow;
+}
+
+.main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.robot{
+  position: relative;
+  left: 200px;
+}
+
+.beep{
+  width: 5px;
+  height: 0px;
+  border: 5px solid transparent;
+  border-top: 10px solid #777;
+  border-bottom: 80px solid #888;
+  position: relative;
+  left: 140px;
+}
+
+.brain {
+  background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5; 
+  background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
+  background-size: 75px 150px;
+  height: 150px;
+  width: 150px;
+  border-radius: 60px 60px 10px 10px;
+  border-bottom: 40px solid #666;
+  position: relative;
+  left: 70px;
+}
+.torso {
+  height: 0;
+  width: 140px;
+  border-top: 300px solid #bc6;
+  border-left: 75px solid transparent;
+  border-right: 75px solid transparent;
+  border-radius: 20px 20px 100px 100px;
+}
+.left{
+ font-family: 'Poller One', verdana, arial, sans-serif;
+ font-weight: bold;
+ font-size: 250px;
+ color: #666;
+ transform: rotate(200deg);
+ -webkit-transform: rotate(200deg);
+ -moz-transform: rotate(200deg);
+ position: relative;
+ left: -190px;
+ top: -320px;
+ z-index: -1; 
+}
+
+.right{
+ font-family: 'Poller One', verdana, arial, sans-serif;
+ font-weight: bold;
+ font-size: 250px;
+ color: #666;
+ transform: scaleY(-1) rotate(20deg);
+ -webkit-transform: scaleY(-1) rotate(20deg);
+ -moz-transform: scaleY(-1) rotate(20deg);
+ position: relative;
+ left: 190px;
+ top: -620px;
+ z-index: -1; 
+}
+.foot {
+  height: 40px;
+  width: 40px;
+  background: #ccc;
+  border-radius: 40px;
+  border: 15px solid #999;
+  position: relative;
+  top: -10px;
+  left: 110px;
+  z-index: -1;
+}
+

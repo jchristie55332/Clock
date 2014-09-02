@@ -3,6 +3,7 @@ body{
   margin: 0 auto;
   font-family: Verdana;
   background-color: white;
+  font-size: 0.5px;
 }
 
 nav {
@@ -19,8 +20,7 @@ nav {
 }
 
 nav ul li {
-  padding-top: 5px;
-  padding-bottom: 5px;
+
   display: inline-block;
   list-style-type: none;
   text-align: center;
@@ -48,75 +48,75 @@ nav ul li.not_name:hover {
 
 .robot{
   position: relative;
-  left: 200px;
+  left: 0em;
 }
 
 .beep{
-  width: 5px;
-  height: 0px;
-  border: 5px solid transparent;
-  border-top: 10px solid #777;
-  border-bottom: 80px solid #888;
+  width: 5em;
+  height: 0em;
+  border: 5em solid transparent;
+  border-top: 10em solid #777;
+  border-bottom: 80em solid #888;
   position: relative;
-  left: 140px;
+  left: 140em;
 }
 
 .brain {
-  background: radial-gradient(circle, white 15%, transparent 40%), #cc5;
-  background: -moz-radial-gradient(circle, white 15%, transparent 40%), #cc5; 
-  background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #cc5;
-  background-size: 75px 150px;
-  height: 150px;
-  width: 150px;
-  border-radius: 60px 60px 10px 10px;
-  border-bottom: 40px solid #666;
+  background: radial-gradient(circle, white 15%, transparent 40%), #4B0082;
+  background: -moz-radial-gradient(circle, white 15%, transparent 40%), #4B0082; 
+  background: -webkit-radial-gradient(circle, white 15%, transparent 40%), #4B0082;
+  background-size: 75em 150em;
+  height: 150em;
+  width: 150em;
+  border-radius: 60em 60em 10em 10em;
+  border-bottom: 40em solid #666;
   position: relative;
-  left: 70px;
+  left: 70em;
 }
 .torso {
   height: 0;
-  width: 140px;
-  border-top: 300px solid #bc6;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
-  border-radius: 20px 20px 100px 100px;
+  width: 140em;
+  border-top: 300em solid #bc6;
+  border-left: 75em solid transparent;
+  border-right: 75em solid transparent;
+  border-radius: 20em 20em 100em 100em;
 }
 .left{
  font-family: 'Poller One', verdana, arial, sans-serif;
  font-weight: bold;
- font-size: 250px;
+ font-size: 250em;
  color: #666;
  transform: rotate(200deg);
  -webkit-transform: rotate(200deg);
  -moz-transform: rotate(200deg);
  position: relative;
- left: -190px;
- top: -320px;
+ left: -0.75em;
+ top: -1.3em;
  z-index: -1; 
 }
 
 .right{
  font-family: 'Poller One', verdana, arial, sans-serif;
  font-weight: bold;
- font-size: 250px;
+ font-size: 250em;
  color: #666;
  transform: scaleY(-1) rotate(20deg);
  -webkit-transform: scaleY(-1) rotate(20deg);
  -moz-transform: scaleY(-1) rotate(20deg);
  position: relative;
- left: 190px;
- top: -620px;
+ left: .7em;
+ top: -2.50em;
  z-index: -1; 
 }
 .foot {
-  height: 40px;
-  width: 40px;
+  height: 40em;
+  width: 40em;
   background: #ccc;
-  border-radius: 40px;
-  border: 15px solid #999;
+  border-radius: 40em;
+  border: 15em solid #999;
   position: relative;
-  top: -10px;
-  left: 110px;
+  top: -10em;
+  left: 110em;
   z-index: -1;
 }
 

@@ -1,0 +1,36 @@
+
+
+body{
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: Verdana;
+  width: 960px;
+  background-color: gray;
+}
+
+nav {
+  width: 100%;
+  background-color: red;
+  text-align: center;
+}
+
+nav ul li {
+  padding-top: 20px;
+  display: inline-block;
+  list-style-type: none;
+  height: 50px;
+  text-align: center;
+  vertical-align: center;
+  font-size: 25px;
+}
+nav ul li.name {
+  width: 50%;
+  text-align: right;
+}
+nav ul li.not_name {
+  width: 15%
+}
+nav ul li.not_name:hover {
+  color: blue;
+
+}

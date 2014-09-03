@@ -84,7 +84,7 @@ window.onload = function(){
   
   //Lets add some animation for fun
   draw();
-  redraw_loop = setInterval(draw, 500); //Draw a new chart every 2 seconds
+  redraw_loop = setInterval(draw, 1000); //Draw a new chart every 2 seconds
   
   
   

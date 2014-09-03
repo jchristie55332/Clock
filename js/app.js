@@ -14,61 +14,51 @@ window.onload = function(){
   {
     //Clear the canvas everytime a chart is drawn
     ctx.clearRect(0, 0, W, H);
-  
     var radians_4 = degrees_4 * Math.PI / 180;
     ctx.beginPath();
-    ctx.strokeStyle = "blue";
-    ctx.lineWidth = 150;
+    ctx.strokeStyle = "hsla(117, 100%, 67%, 0.5)";
+    ctx.lineWidth = 200;
     ctx.arc(W/2, H/2, 100, 0 - 90*Math.PI/180, radians_4 - 90*Math.PI/180, false); 
     ctx.stroke();
 
     var radians_3 = degrees_3 * Math.PI / 180;
     ctx.beginPath();
-    ctx.strokeStyle = "yellow";
-    ctx.lineWidth = 120;
+    ctx.strokeStyle = "hsla(117, 100%, 57%, 1)";
+    ctx.lineWidth = 160;
     ctx.arc(W/2, H/2, 100, 0 - 90*Math.PI/180, radians_3 - 90*Math.PI/180, false); 
     ctx.stroke();
 
     var radians_2 = degrees_2 * Math.PI / 180;
     ctx.beginPath();
-    ctx.strokeStyle = "green";
-    ctx.lineWidth = 90;
+    ctx.strokeStyle = "hsla(117, 100%, 47%, 1)";
+    ctx.lineWidth = 120;
     ctx.arc(W/2, H/2, 100, 0 - 90*Math.PI/180, radians_2 - 90*Math.PI/180, false); 
     ctx.stroke();
 
     
     var radians_1 = degrees_1 * Math.PI / 180;
     ctx.beginPath();
-    ctx.strokeStyle = "red";
-    ctx.lineWidth = 60;
+    ctx.strokeStyle = "hsla(117, 100%, 37%, 1)";
+    ctx.lineWidth = 80;
     ctx.arc(W/2, H/2, 100, 0 - 90*Math.PI/180, radians_1 - 90*Math.PI/180, false); 
     ctx.stroke();
 
     var radians = degrees * Math.PI / 180;
     ctx.beginPath();
-    ctx.strokeStyle = "blue";
-    ctx.lineWidth = 30;
+    ctx.strokeStyle = "hsla(117, 100%, 27%, 1)";
+    ctx.lineWidth = 40;
     ctx.arc(W/2, H/2, 100, 0 - 90*Math.PI/180, radians - 90*Math.PI/180, false); 
-    ctx.stroke();
-
-    var radian = degree * Math.PI / 180;
-    ctx.beginPath();
-    ctx.strokeStyle = "yellow";
-    ctx.lineWidth = 10;
-    ctx.arc(W/2, H/2, 100, 0 - 90*Math.PI/180, radian - 90*Math.PI/180, false); 
     ctx.stroke();
   }
   
   function draw()
   {
     //random degree from 0 to 360
-    var milli = new Date().getMilliseconds();
     var seconds = new Date().getSeconds();
     var mins = new Date().getMinutes();
     var hours = new Date().getHours();
     var day = new Date().getDay();
     var month = new Date().getMonth();
-    degree = milli*3.6
     degrees = seconds*6;
     degrees_1 = mins*6
     degrees_2 = hours*15

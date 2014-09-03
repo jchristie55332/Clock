@@ -1,11 +1,26 @@
+body{
+  
+}
+
+.everything {
+  text-align: center;
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 50px;
+}
+
 .circle {
   border: 2px solid black;
   width: 186px;
   height: 186px;
   position: relative;
-  top: -395px;
-  left: 205px;
+  top: -295px;
+  margin: 0 auto;
   border-radius: 185px;
   background-color: white;
-
 }
+
+

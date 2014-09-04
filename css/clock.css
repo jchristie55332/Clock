@@ -1,8 +1,6 @@
 body{ 
   box-sizing: border-box;
   font-family: Verdana;
-
-
 }
 
 .name {
@@ -14,30 +12,36 @@ body{
   width: 50%;
 }
 
+nav {
+  background-color: hsla(117, 100%, 4%, 0.4);
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  width: 15%;
+  font-size: 25px;
+  text-align: center;
+}
+
+li:first-child {
+  width: 50%;
+
+  
+}
+
 .about {
-  font-size: 50px;
-  font-weight: bold;
-  border: 2px solid black;
-  border-radius: 0 20px 20px 0;
-  padding: 20px 0 20px 20px;
-  width: 40%;
+
 }
 .work {
-  font-size: 50px;
-  font-weight: bold;
-  border: 2px solid black;
-  border-radius: 0 20px 20px 0;
-  padding: 20px 0 20px 20px;
-  width: 30%;
+
 }
 
 .contact {
-  font-size: 50px;
-  font-weight: bold;
-  border: 2px solid black;
-  border-radius: 0 20px 20px 0;
-  padding: 20px 0 20px 20px;
-  width: 20%;
+
 }
 
 .everything {
@@ -99,4 +103,13 @@ body{
 
 .hidden {
   display: none
+}
+.header {
+font-size: 30px;
+font-weight: bold;
+border: 5px solid black;
+margin: 0 auto;
+width: 600px;
+text-align: center;
+border-radius: 50px;
 }

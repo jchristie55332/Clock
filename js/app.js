@@ -64,10 +64,7 @@ window.onload = function(){
     degrees_2 = hours*15
     degrees_3 = day*51
     degrees_4 = month*30
-
     init();
-    console.log(new Date().getDay())
-
   }
   
   //function to make the chart move to new degrees 

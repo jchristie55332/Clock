@@ -1,5 +1,43 @@
-body{
-  
+body{ 
+  box-sizing: border-box;
+  font-family: Verdana;
+
+
+}
+
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 0 20px 20px 0;
+  padding: 20px 0 20px 20px;
+  width: 50%;
+}
+
+.about {
+  font-size: 50px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 0 20px 20px 0;
+  padding: 20px 0 20px 20px;
+  width: 40%;
+}
+.work {
+  font-size: 50px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 0 20px 20px 0;
+  padding: 20px 0 20px 20px;
+  width: 30%;
+}
+
+.contact {
+  font-size: 50px;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 0 20px 20px 0;
+  padding: 20px 0 20px 20px;
+  width: 20%;
 }
 
 .everything {
@@ -13,6 +51,7 @@ body{
 }
 
 .circle {
+  display: inline-block;
   border: 2px solid black;
   width: 186px;
   height: 186px;
@@ -23,4 +62,41 @@ body{
   background-color: white;
 }
 
+#time {
+  position: relative;
+  top: 10px;
 
+}
+.about_info {
+  text-align: center;
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.work_info {
+  text-align: center;
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.contact_info {
+  text-align: center;
+  border: 5px solid black;
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+.hidden {
+  display: none
+}

@@ -1,1 +1,1 @@
-A simple Javascript clock that works of local time.
+A simple Javascript clock that works from local time.
